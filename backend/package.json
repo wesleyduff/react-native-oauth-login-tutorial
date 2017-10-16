@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/nodemon/bin/nodemon.js -- node_modules/babel-cli/bin/babel-node.js server.js",
+    "start": "babel-node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Konstantin Shkut <konstantin.shkut@gmail.com> (http://rationalappdev.com)",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "cookie-session": "^2.0.0-beta.1",
     "express": "^4.15.2",
+    "mongoose": "^4.12.2",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.1",
     "passport-google-oauth20": "^1.0.0"

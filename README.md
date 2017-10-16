@@ -4,6 +4,8 @@ Learn how to log users into React Native apps via Facebook or Google OAuth.
 
 ## Tutorial
 
+(link)[http://rationalappdev.com/implementing-comments-with-react-native-and-nodejs/#lets-get-started]
+
 Read the full tutorial here http://rationalappdev.com/logging-into-react-native-apps-with-facebook-or-google
 
 ## Demo
